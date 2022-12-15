@@ -1,0 +1,31 @@
+1. on the terminal enter the following command:
+
+npm init vite@latest jscourse-tmp  # This will initialize a folder named as jscourse-tmp
+
+
+2. then go into that folder by typing the following on the terminal
+
+cd jscourse-tmp
+
+
+3. now install node package manager for node.js
+
+npm install
+
+
+4. since packages are , you can run the dev. this will start the app on the localhost
+
+npm run dev
+
+
+5. create a ".env" file to hide the API secret key we got from OpenAI. We will add this .env file to .gitignore file to avoid publishing our secret key.
+
+OPENAI_API_KEY = "your key here"
+
+
+6. Before entering the command , make sure that you are in the jscourse-tmp file.Now we will create our server and for that we need to install some dependencies.After that create the server.js file and go there.
+
+npm i dotenv express cors openai
+
+
+7.
