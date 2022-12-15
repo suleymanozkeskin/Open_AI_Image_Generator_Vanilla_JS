@@ -13,7 +13,7 @@ cd jscourse-tmp
 npm install
 
 
-4. since packages are , you can run the dev. this will start the app on the localhost
+4. since packages are installed , you can run the dev. this will start the app on the localhost
 
 npm run dev
 
