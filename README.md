@@ -1,4 +1,4 @@
-# open_ai_image_generator_Vanilla_JS
-# open_ai_photo_generator_Vanilla_JS
-# open_ai_photo_generator_Vanilla_JS
-# Open_AI_Image_Generator_Vanilla_JS
+This app is using OpenAI API to generate images based on user input.
+This is a lite VanillaJS application.
+
+Deployment will soon take place on Heroku.
