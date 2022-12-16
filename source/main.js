@@ -42,5 +42,5 @@ function showSpinner() {
 function hideSpinner() {
   const button = document.querySelector('button');
   button.disabled = false;
-  button.innerHTML = 'Dream';
+  button.innerHTML = 'Generate';
 }
