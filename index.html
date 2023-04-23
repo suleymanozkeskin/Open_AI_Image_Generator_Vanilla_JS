@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>AI Photo Generator</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <main>
       <h1>AI Photo Generator</h1>
-      
 
       <div id="result">
-        Image will appear here after you type your thoughts
+        <p>Image will appear here after you type your thoughts</p>
       </div>
 
       <form>
-        <label for="prompt">Type your thoughts here , an image will be generated </label>
+        <label for="prompt">
+          Type your thoughts here, an image will be generated
+        </label>
         <textarea name="prompt" maxlength="160"></textarea>
 
-        <button type="submit">GENERATE</button>
+        <button type="submit">Generate</button>
       </form>
     </main>
 

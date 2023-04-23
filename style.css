@@ -1,31 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Glitch&family=Rubik+Microbe&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rubik+Glitch&family=Rubik+Microbe&display=swap");
+
 body {
   background-color: #0b0b0e;
   color: white;
-  font-family: 'Poppins', sans-serif;
-  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
 }
 
 main {
- display: grid;
- place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 512px;
 }
 
 h1 {
-  font-family: 'Rubik Microbe', cursive;
+  font-family: "Rubik Microbe", cursive;
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #result {
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   max-width: 512px;
   width: 100%;
   background: #3a3a43;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
 
+#result p {
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 form {
@@ -34,15 +52,22 @@ form {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 512px;
-  margin-top: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 textarea {
   width: 100%;
   height: 100px;
   margin: 10px 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 2px solid #1b1b1e;
+  border-radius: 5px;
 }
 
 button {
@@ -55,7 +80,8 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 50px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 button:hover {
@@ -66,14 +92,16 @@ button:hover {
   display: none;
 }
 
-
 .spinner {
   animation: spin 1s linear infinite;
   display: inline-block;
 }
 
-
 @keyframes spin {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
